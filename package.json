@@ -1,0 +1,12 @@
+{
+  "name": "dsh-mail-notify",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "给主人邮箱发提示：DSH 里长任务完成、巡检发现问题时主动发一封邮件。",
+  "keywords": ["dsh", "dsh-plugin", "mail", "smtp", "notify"],
+  "license": "MIT",
+  "author": "YEHO-gg",
+  "exports": { ".": "./index.js" },
+  "files": ["index.js", "smtp.js", "cordis.patch.yml", "README.md"],
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } }
+}

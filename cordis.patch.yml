@@ -1,0 +1,4 @@
+- insert:
+    - id: mail-notify
+      name: dsh-mail-notify
+      config: {}
